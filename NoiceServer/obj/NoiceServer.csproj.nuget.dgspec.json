@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\NOICE_speed_up\\NoiceServer\\NoiceServer.csproj": {}
+    "/home/runner/work/NOICE3/NOICE3/NoiceServer/NoiceServer.csproj": {}
   },
   "projects": {
-    "D:\\code\\NOICE_speed_up\\NoiceServer\\NoiceServer.csproj": {
+    "/home/runner/work/NOICE3/NOICE3/NoiceServer/NoiceServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\NOICE_speed_up\\NoiceServer\\NoiceServer.csproj",
+        "projectUniqueName": "/home/runner/work/NOICE3/NOICE3/NoiceServer/NoiceServer.csproj",
         "projectName": "NoiceServer",
-        "projectPath": "D:\\code\\NOICE_speed_up\\NoiceServer\\NoiceServer.csproj",
-        "packagesPath": "C:\\Users\\tanak\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\NOICE_speed_up\\NoiceServer\\obj\\",
+        "projectPath": "/home/runner/work/NOICE3/NOICE3/NoiceServer/NoiceServer.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/NOICE3/NOICE3/NoiceServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -48,9 +48,9 @@
               "target": "Package",
               "version": "[4.10.0.20240615, )"
             },
-            "OpenCvSharp4.runtime.win": {
+            "OpenCvSharp4.runtime.linux-x64": {
               "target": "Package",
-              "version": "[4.10.0.20240615, )"
+              "version": "[4.10.0.20240717, )"
             }
           },
           "imports": [
@@ -67,19 +67,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
+              "version": "[8.0.23, 8.0.23]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.20, 8.0.20]"
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.23, 8.0.23]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
+              "version": "[8.0.23, 8.0.23]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,10 @@
+# Build output
+bin/
+obj/
+
+# Log files
+*.log
+
+# Uploaded and processed files
+uploads/
+processed_videos/

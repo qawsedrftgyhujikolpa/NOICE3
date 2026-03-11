@@ -15,9 +15,29 @@
 
 ## Requirements
 - .NET 8 SDK
-- Windows 10/11（OpenCvSharp4.runtime.win 使用時）
+- Windows 10/11（ローカル実行時）または Linux（Codespaces / WSL 使用時）
 - ダウンロード時の音声ミックス用に **ffmpeg** を PATH にインストール推奨
 
 ## Setup
+
+### ローカル（Windows）
 1. `run.bat` を実行（初回は `dotnet build` でビルド）。
 2. ブラウザで `http://127.0.0.1:8000` にアクセス。
+
+### ローカル（Linux / macOS）
+1. `./run.sh` を実行（初回は `dotnet build` でビルド）。
+2. ブラウザで `http://127.0.0.1:8000` にアクセス。
+
+## GitHub Codespaces で使う方法
+
+このリポジトリは GitHub Codespaces に対応しています。
+
+1. GitHub のリポジトリページで **Code** ボタンをクリック。
+2. **Codespaces** タブを選択し、**Create codespace on main** をクリック。
+3. Codespace が起動したら、ターミナルで以下を実行：
+   ```bash
+   ./run.sh
+   ```
+4. ポート `8000` が自動転送されるので、ブラウザのポップアップまたは **Ports** タブから NOICE にアクセスできます。
+
+> **Note:** Codespaces 環境では ffmpeg が自動インストールされます。追加設定は不要です。

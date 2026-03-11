@@ -9,7 +9,7 @@
       "NoiceServer/1.0.0": {
         "dependencies": {
           "OpenCvSharp4": "4.10.0.20240615",
-          "OpenCvSharp4.runtime.win": "4.10.0.20240615"
+          "OpenCvSharp4.runtime.linux-x64": "4.10.0.20240717"
         },
         "runtime": {
           "NoiceServer.dll": {}
@@ -23,27 +23,12 @@
           }
         }
       },
-      "OpenCvSharp4.runtime.win/4.10.0.20240615": {
+      "OpenCvSharp4.runtime.linux-x64/4.10.0.20240717": {
         "runtimeTargets": {
-          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
-            "rid": "win-x64",
+          "runtimes/linux-x64/native/libOpenCvSharpExtern.so": {
+            "rid": "linux-x64",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "2024.5.0.0"
-          },
-          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "2024.5.0.0"
           }
         }
       }
@@ -62,12 +47,12 @@
       "path": "opencvsharp4/4.10.0.20240615",
       "hashPath": "opencvsharp4.4.10.0.20240615.nupkg.sha512"
     },
-    "OpenCvSharp4.runtime.win/4.10.0.20240615": {
+    "OpenCvSharp4.runtime.linux-x64/4.10.0.20240717": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+BmRAXnKdwJxJ8qzjrXXK/bbQ/KpEwe9RM+X+/wf9hQ+ULPY1BP7k31LQTQRiEpPLGZGWfJUF2bchkW9cqT8cw==",
-      "path": "opencvsharp4.runtime.win/4.10.0.20240615",
-      "hashPath": "opencvsharp4.runtime.win.4.10.0.20240615.nupkg.sha512"
+      "sha512": "sha512-IHdZSzfJtAdI9cl7IFKrwaxRpYSEVJtSukaBW/NVmMZPHV2Dznudkkip1yVrJFbWgnt6L1GHTLpgokWOixLRNg==",
+      "path": "opencvsharp4.runtime.linux-x64/4.10.0.20240717",
+      "hashPath": "opencvsharp4.runtime.linux-x64.4.10.0.20240717.nupkg.sha512"
     }
   }
 }
