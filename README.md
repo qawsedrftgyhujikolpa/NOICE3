@@ -21,3 +21,4 @@
 ## Setup
 1. `run.bat` を実行（初回は `dotnet build` でビルド）。
 2. ブラウザで `http://127.0.0.1:8000` にアクセス。
+# noiceX
